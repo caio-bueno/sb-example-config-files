@@ -1,0 +1,8 @@
+WbDataDiff -type='sql' 
+-targetProfile='Local PostgreSQL' 
+-targetTables='segmentation' 
+-referenceProfile='Remote PostgreSQL' 
+-referenceTables='segmentation' 
+-file='/home/caio/Downloads/teste.sql' 
+
+
